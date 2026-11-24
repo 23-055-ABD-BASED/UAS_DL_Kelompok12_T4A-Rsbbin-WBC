@@ -1,4 +1,4 @@
-# UAS_DL_Kelompok12_T4A-Rsbbin-WBC
+# UAS_DL_Kelompok12_T4A-Rabbin-WBC
 
 # Segmentasi Nukleus dan Sitoplasma Sel Darah Putih pada Raabin-WBC (T4-A)
 
