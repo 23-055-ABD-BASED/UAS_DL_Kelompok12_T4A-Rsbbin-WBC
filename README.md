@@ -22,7 +22,7 @@ Audit data menunjukkan subset ini tidak memuat label kamera atau mikroskop yang 
 | Apusan tak terlihat (`grouped`) | Split per apusan | Skenario utama, bebas kebocoran antar-apusan |
 | Split bocor vs bersih (`random` vs `grouped`) | Split per sel | Mengukur inflasi skor akibat kebocoran |
 | Antar-sesi (`cross_session`) | Batch 95-8 → apusan 95-8 lain dan batch 95-5/95-7/95-9 | Pergeseran antar-sesi (bukan antar-perangkat) |
-| Eksternal | Raabin-WBC → Zheng et al. | [BELUM DIKERJAKAN — isi ringkasan hasil bila sudah ada] |
+| Eksternal | Raabin-WBC → Zheng et al. | [Pengujian Eksternal menggunakan Dataset 1 dan Dataset 2 |
 
 ## Struktur repositori
 
