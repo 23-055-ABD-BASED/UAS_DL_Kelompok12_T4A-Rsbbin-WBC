@@ -3,6 +3,7 @@
 # Segmentasi Nukleus dan Sitoplasma Sel Darah Putih pada Raabin-WBC (T4-A)
 
 Tugas besar pengganti UAS, mata kuliah Deep Learning for Image – Computer Vision Lanjutan.
+
 Abd. Based 230441100055 (Ketua)
 Aditya 230441100138 (Anggota 2)
 Iklil Mubarok 230441100154 (Anggota 3)
