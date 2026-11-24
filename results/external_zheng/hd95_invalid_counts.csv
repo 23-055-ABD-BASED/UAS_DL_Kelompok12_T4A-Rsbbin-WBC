@@ -1,0 +1,13 @@
+dataset,model,seed,hd95_invalid_cytoplasm,hd95_invalid_nucleus
+Dataset 1,deeplabv3plus,42,0,1
+Dataset 1,deeplabv3plus,43,0,0
+Dataset 1,deeplabv3plus,44,0,1
+Dataset 1,unet,42,0,0
+Dataset 1,unet,43,0,1
+Dataset 1,unet,44,0,1
+Dataset 2,deeplabv3plus,42,0,0
+Dataset 2,deeplabv3plus,43,0,0
+Dataset 2,deeplabv3plus,44,0,0
+Dataset 2,unet,42,0,0
+Dataset 2,unet,43,0,0
+Dataset 2,unet,44,0,0

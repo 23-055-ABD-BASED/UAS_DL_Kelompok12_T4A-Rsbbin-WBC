@@ -1,0 +1,9 @@
+kasus,name,cls,inti,sitoplasma,latar
+BENAR,95-8-13-4_106_1.bmp,Monocyte,0.0,0.0,1.0
+BENAR,95-8-12-5_243_1.bmp,Neutrophil,0.014,0.017,0.969
+BENAR,95-8-17-1_184_1.bmp,Eosinophil,0.0,0.0,1.0
+BENAR,95-5-5-1_139_1.bmp,Lymphocyte,0.194,0.016,0.79
+SALAH,95-8-13-4_77_3.bmp,Lymphocyte,0.0,0.0,1.0
+SALAH,95-8-13-4_198_1.bmp,Lymphocyte,0.0,0.0,1.0
+SALAH,95-8-12-5_104_1.bmp,Lymphocyte,0.0,0.0,1.0
+SALAH,95-8-13-4_354_1.bmp,Lymphocyte,0.0,0.0,1.0

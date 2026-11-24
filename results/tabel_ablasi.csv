@@ -1,0 +1,12 @@
+ablation,factor_value,arch,best_epoch,epochs_run,dihentikan_dini,val_dice_cyto,val_dice_nuc,val_miou,val_hd95_cyto
+baseline,deeplabv3plus_ce_dice,deeplabv3plus,18,20,False,0.8933,0.972,0.9166,9.4114
+baseline,unet_ce_dice,unet,17,20,False,0.8963,0.9724,0.9188,8.5563
+color_aug,off,unet,6,11,True,0.877,0.9704,0.9071,11.8738
+color_aug,off_p20,unet,17,20,False,0.8963,0.9738,0.9197,9.1328
+loss,ce,unet,9,14,True,0.8871,0.9704,0.9122,10.419
+loss,ce_p20,unet,17,20,False,0.8953,0.9719,0.9182,8.739
+loss,dice,unet,12,17,True,0.8948,0.9716,0.9169,8.9886
+loss,focal_dice,unet,18,20,False,0.8963,0.971,0.918,8.5318
+pretrained,random_init,unet,18,20,False,0.879,0.971,0.9083,11.7717
+resolution,384,unet,19,20,False,0.8976,0.9725,0.9195,9.3188
+split,random,unet,20,20,False,0.9183,0.9699,0.9272,8.98

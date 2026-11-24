@@ -1,0 +1,7 @@
+owner,arch,seed,params_m,latency_gpu_ms,latency_cpu_ms
+Iklil,deeplabv3plus,42,22.438,6.27,215.33
+Iklil,deeplabv3plus,43,22.438,6.73,218.48
+Iklil,deeplabv3plus,44,22.438,7.23,206.78
+Adit,unet,42,24.437,7.91,242.11
+Adit,unet,43,24.437,7.0,239.71
+Adit,unet,44,24.437,7.2,242.0

@@ -1,0 +1,5 @@
+dataset,model,severe_cytoplasm_miss,nucleus_cytoplasm_confusion,substantial_extra_foreground
+Dataset 1,deeplabv3plus,129,261,5
+Dataset 1,unet,106,213,5
+Dataset 2,deeplabv3plus,1,29,0
+Dataset 2,unet,4,45,1

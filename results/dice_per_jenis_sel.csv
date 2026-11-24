@@ -1,0 +1,11 @@
+,,dice_cyto,dice_cyto,dice_nuc,dice_nuc
+,,mean,std,mean,std
+arch,cls,,,,
+deeplabv3plus,Eosinophil,0.934,0.004,0.957,0.002
+deeplabv3plus,Lymphocyte,0.853,0.002,0.977,0.001
+deeplabv3plus,Monocyte,0.924,0.0,0.977,0.001
+deeplabv3plus,Neutrophil,0.938,0.002,0.961,0.001
+unet,Eosinophil,0.934,0.002,0.96,0.002
+unet,Lymphocyte,0.849,0.012,0.976,0.002
+unet,Monocyte,0.923,0.002,0.977,0.0
+unet,Neutrophil,0.943,0.001,0.96,0.002
