@@ -1,0 +1,2 @@
+run_id,owner,ablation,factor_value,arch,encoder,loss,img_size,seed,split,epochs,lr,batch_size,color_aug,pretrained,used_test,gpu,gpu_minutes,status,notes
+Iklil_1123_124222,Iklil,cross_session,deeplabv3plus_cs_p20,deeplabv3plus,resnet34,ce_dice,256,42,cross_session,20,0.001,16,True,True,True,cpu,94.75,failed,KeyboardInterrupt: 
