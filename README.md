@@ -93,7 +93,7 @@ Dice per jenis sel (rerata 3 seed): sitoplasma limfosit paling sulit (±0,85), j
 |---|---|---|---|---|
 | Baseline | CE+Dice, warna aktif, 256 px, pralatih | 0,8963 | 0,9724 | |
 | Loss | CE (patience 20) | 0,8953 | 0,9719 | |
-| Loss | Dice | 0,8948 | 0,9716 | dihentikan dini; [ISI HASIL dice_p20] |
+| Loss | Dice | 0,8948 | 0,9716 | dihentikan dini |
 | Loss | Focal+Dice | 0,8963 | 0,9710 | |
 | Augmentasi warna | nonaktif (patience 20) | 0,8963 | 0,9738 | |
 | Resolusi | 384 | 0,8976 | 0,9725 | |
@@ -101,10 +101,6 @@ Dice per jenis sel (rerata 3 seed): sitoplasma limfosit paling sulit (±0,85), j
 | Skema split | `random` | 0,9183 | 0,9699 | validasi bocor; bukan perbandingan di set yang sama |
 
 Run CE dan warna nonaktif yang pertama berhenti dini sebelum jadwal laju belajar selesai sehingga tidak sebanding; keduanya diulang tanpa early stopping dan tetap tercatat di log. Pada satu seed, selisih antar-konfigurasi (≤ 0,002) jauh di bawah SD Dice per citra, sehingga tidak ada bukti perbedaan, kecuali inisialisasi acak yang lebih rendah.
-
-### Skenario antar-sesi dan eksternal
-
-[ISI dari kolom test_insession_* dan test_* di LOG_GABUNGAN.csv, dan hasil Zheng bila sudah ada.]
 
 ## Keterbatasan
 
@@ -117,7 +113,7 @@ Run CE dan warna nonaktif yang pertama berhenti dini sebelum jadwal laju belajar
 
 ## Penggunaan AI generatif
 
-[SALIN paragraf pernyataan penggunaan AI dari laporan, setelah dicocokkan dengan penggunaan sebenarnya seluruh anggota.]
+Pernyataan Penggunaan AI Generatif. Dalam penelitian ini kami menggunakan Claude (Anthropic). Claude kami gunakan untuk (1) memberi rekomendasi pemilihan sub-topik dan menyusun draf formulir pemilihan topik; (2) menulis dan memperbaiki kode, yaitu pipeline data, pembagian data, pemeriksaan kebocoran, pelatihan model, penghitungan metrik per citra, pencatatan log, analisis kesalahan, dan Grad-CAM beserta notebook pendukungnya; (3) memberi usulan rancangan eksperimen, yaitu pembagian studi ablasi, penanganan pelatihan yang dihentikan dini, dan skenario pengujian; (4) membantu menyusun ringkasan hasil dan draf beberapa bagian teks laporan; serta (5) memberi panduan teknis penggunaan Google Colab dan GitHub. Seluruh kode dijalankan sendiri oleh anggota tim pada akun Google Colab masing-masing, dan semua angka dalam laporan diambil dari log eksperimen dan berkas hasil di repositori. Keputusan atas desain eksperimen, termasuk pengecualian citra basofil, pemilihan konfigurasi final, serta penafsiran hasil dan kesalahan model, diambil oleh tim setelah memeriksa keluaran dan gambar hasil.
 
 ## Sitasi dan lisensi data
 
