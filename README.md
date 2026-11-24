@@ -24,7 +24,7 @@ Audit data menunjukkan subset ini tidak memuat label kamera atau mikroskop yang 
 
 ```
 code/        data.py, runlog.py, metrics.py, models.py, train.py, analysis.py
-notebooks/   01_data_audit_raabin_wbc, 02_train_unet_deeplab, 03_eval_analysis, 04_error_gallery_gradcam
+notebooks/   01_data_audit_raabin_wbc, 02_train_unet_deeplab, 03_eval_analysis, 04_error_gallery_gradcam, 05_Uji_Eksternal_Zheng
 splits/      daftar berkas tiap subset (seed 42), semua skema
 logs/        log_<anggota>.csv dan LOG_GABUNGAN.csv (semua run, termasuk yang dihentikan dini)
 results/     tabel dan gambar hasil (CSV dan PNG)
